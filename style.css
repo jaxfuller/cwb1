@@ -124,3 +124,9 @@ input[type=submit]:hover {
     height: 200px;
     width: auto;
 }
+
+footer {
+    text-align: center;
+    color: antiquewhite;
+    text-size-adjust: 8px;
+}
