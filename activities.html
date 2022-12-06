@@ -25,9 +25,26 @@
             <br>
             <main>
                 <div id="activities">
-                    <img class="media" id="skier" src="media/skier.jpg" alt="Skier">
-                    <img class="media" id="hiker" src="media/hiking.jpg" alt="Hiker">
-                    <img class="media" id="snowmobile" src="media/snowmobile.jpg" alt="Man Snowmobiling">
+                    <div id="summer-activities">
+                    <h3>Summer Activities</h3>
+                        <p>
+                            There are many things to do around Leadville in the summer! From checking out the historic section of 
+                            town, to enjoying the great outdoors. If you're interesting in Hiking, we suggest the trails surrounding Turquoise
+                            Lake and the Hagerman Pass area. Fishing? Check out the legendary Arkansas River for a catch of a lifetime!
+                        </p>
+                        <img class="media" id="hiker" src="media/hiking.jpg" alt="Hiker">
+                    </div>
+                    <div id="winter-activities">
+                    <h3>Winter Activities</h3>
+                        <p>
+                            Wintertime in the high rockies is like nothing you've every experienced before. Snowshoe, Ski, Snowmobile, or
+                            enjoy the great local food Leadville as to offer. Averaging over 250 inches of snow anually, Leadville is located just
+                            10 minutes from Ski Cooper, 20 minutes from Copper Mountain, and 45 minutes from Vail. Looking for somewhere to snowmobile?
+                            Check out nearby Nova Guides! (And ask for Jackson). Just remember to tip your guide!
+                        </p>
+                        <img class="media" id="skier" src="media/skier.jpg" alt="Skier">
+                        <img class="media" id="snowmobile" src="media/snowmobile.jpg" alt="Man Snowmobiling">
+                    </div>
                 </div>
             </main>
             <footer>
@@ -39,7 +56,10 @@
                     </a>
                     <p>Created by Jackson Fuller</p>
                     <p>Email me at: jaxful@gmail.com or use the <a href="contact.html">Contact Page</a></p>
-                    <p>Last Updated 10/30/22</p>
+                    Copyright ©  <span id="copyright-year">2022</span>
+                    <script>
+                        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+                    </script>
                 </div>
             </footer>
         </div>
